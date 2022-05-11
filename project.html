@@ -9,6 +9,11 @@
 <body>
     <script>
 
+
+
+
+        //function to get a random choice from the computer
+
         function computerPlay(){
             const options = ['rock','paper','scissors']
             return options[Math.floor(Math.random()*options.length)]
@@ -19,9 +24,7 @@
         let pScore = 0
         let cScore = 0
 
-
-
-        
+        //function to play a round of the game using the selection of the player and computerselection are parameters
 
         function playRound(playerSelection,computerSelection){ 
             
@@ -43,7 +46,8 @@
 
 
 
-   
+        //function to repeat playRound() 5 times in a loop 
+
        function game(){
            for(i=0;i<5;i++){
 
